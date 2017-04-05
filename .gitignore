@@ -1,0 +1,10 @@
+*.pyc
+.idea
+.ipynb_checkpoints
+*.bak
+*.swp
+*.json
+*.csv
+*.zip
+app/data/model.pkl
+app/data/vectorizer.pkl
