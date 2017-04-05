@@ -6,5 +6,6 @@
 *.json
 *.csv
 *.zip
+.env
 app/data/model.pkl
 app/data/vectorizer.pkl
