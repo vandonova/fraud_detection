@@ -58,8 +58,7 @@ def profit_curve(cb, predict_probas, y_true):
 
 
 def plot_profit_curve(model, label, costbenefit, X_train, X_test, y_train, y_test):
-    '''Plots the profit curve for the classifier
-    '''
+    '''Plots the profit curve for the classifier'''
     model.fit(X_train, y_train)
     preds = model.predict_proba(X_test)[:, 1]
     profits = profit_curve(costbenefit, preds, y_test)
